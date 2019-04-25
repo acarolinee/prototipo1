@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'CalamityFont', Fallback, sans-serif;
+  // font-family: "Playfair Display", serif;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("zelda_botw.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+nav {
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: lightblue;
+    }
+
+    i {
+        color: white;
+    }
+
+}
+
+@font-face {
+  font-family: 'CalamityFont';
+  src: url('Calamity-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+#topContainer {
+    margin-top: 200px;
+    color: white;
+    padding: 0 64px;
+}
+
+#learnMoreIcon {
+    vertical-align: middle;
+    height: 26px;
+    margin-left: 50px;
+}
+
+#bottomParagraph {
+    margin-top: 200px;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 991px) {
+    #topContainer {
+        margin-top: 350px;
+    }
+}
